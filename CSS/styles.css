@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  background-color: hsl(0, 0%, 95%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.cardboard-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 9px;
+  overflow: hidden;
+}
+.card-component {
+  padding: 4.8rem;
+}
+.card-component:nth-of-type(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+.card-component:nth-of-type(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-component:nth-of-type(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+.image {
+  margin-bottom: 4.8rem;
+}
+.heading-primary {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  font-weight: 700;
+  font-family: Big Shoulders Display;
+  margin-bottom: 2.4rem;
+}
+.card-description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-size: 2.4rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 9.6rem;
+}
+
+/* ------BUTTONS------*/
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 2.4rem;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3.2rem;
+  font-family: Lexend Deca;
+}
+
+.btn--link:hover,
+.btn--link:active {
+  color: hsl(0, 0%, 95%);
+  box-shadow: inset 0 0 0 0.3rem hsl(0, 0%, 95%);
+}
+
+.btn-active-orange:hover,
+.btn-active-orange:active {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.btn-active-green:hover,
+.btn-active-green:active {
+  background-color: hsl(184, 100%, 22%);
+}
+.btn-active-darkgreen:hover,
+.btn-active-darkgreen:active {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* ------COLOR CLASSES FOR BUTTON-TEXT------*/
+
+.orange-text {
+  color: hsl(31, 77%, 52%);
+}
+.green-text {
+  color: hsl(184, 100%, 22%);
+}
+.darkgreen-text {
+  color: hsl(179, 100%, 13%);
+}
+
+/* ------FOOTER------*/
+
+.attribution {
+  padding: 1.6rem;
+  background-color: #e7e6e6;
+}
+.challenge-link:link,
+.challenge-link:visited {
+  background-color: #888080;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4rem;
+  border-radius: 11px;
+  font-size: 3.2rem;
+}
+span {
+  font-size: 3.2rem;
+}

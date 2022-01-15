@@ -1,0 +1,28 @@
+@media (max-width: 30em) {
+  .container {
+    height: 100%;
+    max-width: 100rem;
+  }
+  main {
+    margin: 6.4rem 1.6rem 6.4rem 1.6rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .cardboard-section {
+    grid-template-columns: 1fr;
+  }
+  .card-description {
+    font-size: 1.6rem;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+  .challenge-link:link,
+  .challenge-link:visited {
+    font-size: 1.6rem;
+  }
+  .attribution {
+    padding: 0.8rem;
+  }
+}
